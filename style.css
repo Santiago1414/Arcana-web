@@ -9,6 +9,7 @@ body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     margin: 0;
     padding: 0;
+    background-color: #f5e2cf;
 }
 
 nav {
@@ -119,8 +120,6 @@ a:visited{
 .arcana-h1{
     font-family: 'Dancing Script', cursive;
     background-color: #f2d0ad;
-    border: 0%;
-    padding: 0%;
     font-size: 100px;
     text-align: center;
     color: #242121;
@@ -130,8 +129,71 @@ a:visited{
        border-width: 2px;
        width: auto;
        height: auto;
+      
 }
-.bandera-argentina-brasil{
+h1 {
+    margin: 0%;
+    
+}
+/* .bandera-argentina-brasil{
+
     width: 40px;
     height: 40px;
+} */
+
+.seccion-info{
+    background-color: #eedece;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccion-info{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.indumentaria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.indumentaria img{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 25%;
+    align-items: center;
+}
+
+.carteras{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.carteras img{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 25%;
+    align-items: center;
+}
+
+.zapatos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.zapatos img{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 25%;
+    align-items: center;
 }
