@@ -1,0 +1,137 @@
+img{
+    
+    height: 130px;
+    width: 130px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 30%;
+}
+
+
+.list-navegacion {
+    width: 90%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.borde {
+    
+    background-color: #f2d0ad;
+    /* background: rgb(226,225,237);
+    background: linear-gradient(90deg, rgba(226,225,237,1) 0%, rgba(228,221,238,1) 49%, rgba(244,253,255,1) 100%); */
+       width: 100%;
+       height: auto;
+       border-style: solid;
+       border-color: rgb(245, 146, 175);
+       border-width: 1px;
+    } 
+a {
+    text-decoration: none;
+    text-transform: uppercase;  /*mayúsculas */
+     text-shadow: 3px 5px 20px rgb(5, 5, 5); 
+}
+
+a:link {
+    color: black;
+
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: #ffffff;
+}
+a:visited{
+    color: gray;
+}
+.header {
+    width: 100%;
+    height: 1000px;
+    background-color: #ffffff;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+
+
+.container-header {
+    width: 100%;
+    margin-top: 100 px;
+}
+
+.flexbox-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 799px)
+
+{
+    .container {
+        width: 95%;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+  
+    .form {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .img {
+        border-bottom-right-radius: 0px;
+    }
+    .h1{
+        width: 95%;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    /* .arcana-h1{
+        width: 95%;
+        flex-direction: column-reverse;
+        justify-content: center;
+    } */
+}
+
+.container-img-info{
+    width: 50%;
+}
+.flexbox-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arcana-h1{
+    font-family: 'Dancing Script', cursive;
+    background-color: #f2d0ad;
+    border: 0%;
+    padding: 0%;
+    font-size: 100px;
+    text-align: center;
+    color: #242121;
+       height: auto;
+       border-style: groove;
+       border-color: #f2d0ad;
+       border-width: 2px;
+       width: auto;
+       height: auto;
+}
+.bandera-argentina-brasil{
+    width: 40px;
+    height: 40px;
+}
