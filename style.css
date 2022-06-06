@@ -1,5 +1,4 @@
-img{
-    
+.img-logo{
     height: 130px;
     width: 130px;
 }
@@ -27,8 +26,6 @@ nav {
 .borde {
     
     background-color: #f2d0ad;
-    /* background: rgb(226,225,237);
-    background: linear-gradient(90deg, rgba(226,225,237,1) 0%, rgba(228,221,238,1) 49%, rgba(244,253,255,1) 100%); */
        width: 100%;
        height: auto;
        border-style: solid;
@@ -196,4 +193,27 @@ h1 {
     height: 30%;
     width: 25%;
     align-items: center;
+}
+
+.quienes-somos{
+    background-color: #eedece;
+    border-left: 50px;
+    display: flex;
+    /* flex-direction: row;
+    height: 30%;
+    width: 25%; */
+    justify-content: space-around;
+}
+.img-brasil-argentina{
+    
+    width: 100px;
+}
+footer {
+    text-align: right;
+}
+.arcana-footer{
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    font-family: 'Dancing Script', cursive;
+    text-align: right;
 }
