@@ -1,6 +1,7 @@
+
 .img-logo{
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
 }
 
 body {
@@ -16,7 +17,9 @@ nav {
  
 }
 
-
+.fixed-top{
+    position: fixed;
+}
 .list-navegacion {
     width: 100%;
     list-style: none;
@@ -95,11 +98,13 @@ a:visited{
     text-align: center;
     color: #242121;
        height: auto;
-       border-style: groove;
+       border-style: solid;
        border-color: #f2d0ad;
        /* border-width: 2px; */
+       padding-top: 100px;
        width: auto;
        height: auto;
+       
       
 }
 h1 {
@@ -192,6 +197,9 @@ footer {
     text-align: right;
 }
 
+.bienvenida {
+    font-size: 20px;
+}
 @media (max-width: 799px)
 
 {
