@@ -64,22 +64,10 @@ a:visited{
     padding-top: 20px;
 }
 
-
-
 .container-header {
     width: 100%;
     margin-top: 100 px;
 }
-
-.flexbox-space-around {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-
-
 
 .container-img-info{
     width: 50%;
@@ -111,28 +99,49 @@ h1 {
     margin: 0%;
     
 }
-/* .bandera-argentina-brasil{
 
-    width: 40px;
-    height: 40px;
-} */
 
-.seccion-info{
+/* FIN DE HEADER Y H1 */
+
+.quienes-somos{
+    background-color: #eedece;
+    border-left: 50px;
+    display: flex;
+    /* flex-direction: row;
+    height: 30%;
+    width: 25%; */
+    justify-content: space-around;
+}
+
+/* FIN QUIENES SOMOS */
+
+/*  .seccion-info{
     background-color: #eedece;
     padding: 100px 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.seccion-info{
+ .seccion-info{
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}   */
+
+.seccion-info {
+    background-color: #eedece;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
-.indumentaria{
+
+ .indumentaria{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -158,6 +167,7 @@ h1 {
     height: 30%;
     width: 25%;
     align-items: center;
+
 }
 
 .zapatos{
@@ -172,21 +182,31 @@ h1 {
     height: 30%;
     width: 25%;
     align-items: center;
-}
+} 
 
-.quienes-somos{
+.bienvenida {
+    font-size: 20px;
+    
+}
+h2{
+    padding: 0px;
+    margin: 0px;
     background-color: #eedece;
-    border-left: 50px;
-    display: flex;
-    /* flex-direction: row;
-    height: 30%;
-    width: 25%; */
-    justify-content: space-around;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 30px;
+}
+.img-seccion{
+    width: 300px;
+    height: 300px;
+    border-radius:20px;
 }
 .img-brasil-argentina{
     
     width: 100px;
+    
 }
+ /* FOOTER */
 footer {
     text-align: right;
 }
@@ -196,11 +216,7 @@ footer {
     font-family: 'Dancing Script', cursive;
     text-align: right;
 }
-
-.bienvenida {
-    font-size: 20px;
-}
-@media (max-width: 799px)
+/* @media (max-width: 799px)
 
 {
     .container {
@@ -214,17 +230,18 @@ footer {
         width: 100%;
     }
 
-    .img {
+   / .img {
         border-bottom-right-radius: 0px;
-    }
+    } 
     .h1{
         width: 95%;
         flex-direction: column-reverse;
         justify-content: center;
     }
-    /* .arcana-h1{
+    /.arcana-h1{
         width: 95%;
         flex-direction: column-reverse;
         justify-content: center;
-    } */
+    } 
 }
+ */
