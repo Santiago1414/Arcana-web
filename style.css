@@ -111,25 +111,10 @@ h1 {
     height: 30%;
     width: 25%; */
     justify-content: space-around;
+    padding-bottom: 100px;
 }
 
 /* FIN QUIENES SOMOS */
-
-/*  .seccion-info{
-    background-color: #eedece;
-    padding: 100px 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
- .seccion-info{
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}   */
 
 .seccion-info {
     background-color: #eedece;
@@ -216,6 +201,8 @@ footer {
     font-family: 'Dancing Script', cursive;
     text-align: right;
 }
+
+
 /* @media (max-width: 799px)
 
 {
