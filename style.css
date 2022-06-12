@@ -16,6 +16,7 @@ p{
     text-align: start;
     padding-left: 30px;
     font-size: 1em;
+    padding-right: 30px;
 }
 nav {
     width: 30%;
@@ -131,49 +132,6 @@ h1 {
     align-items: center;
 }
 
- .indumentaria{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.indumentaria img{
-    display: flex;
-    flex-direction: row;
-    height: 30%;
-    width: 25%;
-    align-items: center;
-}
-
-.carteras{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.carteras img{
-    display: flex;
-    flex-direction: row;
-    height: 30%;
-    width: 25%;
-    align-items: center;
-
-}
-
-.zapatos{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.zapatos img{
-    display: flex;
-    flex-direction: row;
-    height: 30%;
-    width: 25%;
-    align-items: center;
-} 
-
 
 h2{
     padding: 0px;
@@ -187,6 +145,7 @@ h2{
     width: 20%;
     height: 20%;
     border-radius:20px;
+    
 }
 .img-brasil-argentina{
     width: 5vw;
@@ -194,6 +153,10 @@ h2{
     border-radius:10px;
     
 }
+
+
+
+
  /* FOOTER */
 footer {
     text-align: right;
@@ -209,30 +172,18 @@ footer {
     text-align: right;
     font-size: 1.2vw;
 }
+
+
+
+
 @media (max-width: 470px)
 {
-/*     .bienvenida {
-        font-size: 2vw;
-        text-align: center;
+    .img-seccion{
+        width: 50%;
+        height: 50%;
+        border-radius:20px;
+        
     }
-.quienes-somos{
-    background-color: #eedece;
-    display: flex;
-    height: 10%;
-    padding-top: 75px;
-    padding-bottom: 100px;
-    font-size: 2em;
-} */
-{
-    .zapatos img{
-        display: flex;
-        flex-direction: column;
-        height: 30%;
-        width: 25%;
-        align-items: center;
-    } 
-    
-}
 .seccion-info {
     background-color: #eedece;
     padding: 100px 0px;
@@ -244,30 +195,3 @@ footer {
 }
 
 }
-/* @media (max-width: 799px)
-
-{
-    .container {
-        width: 95%;
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
-  
-    .form {
-        margin-top: 20px;
-        width: 100%;
-    }
-
-    .img {
-        border-bottom-right-radius: 0px;
-    } 
-    .h1{
-        width: auto;
-        flex-direction: column-reverse;
-        justify-content: center;
-    }
-    .arcana-h1{
-        width: 100vw;
-        justify-content: center;
-    } 
-} */
