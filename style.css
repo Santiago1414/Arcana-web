@@ -81,7 +81,7 @@ a:visited{
     align-items: center;
     flex-wrap: wrap;
 }
-
+ /* TITULO */
 .arcana-h1{
     font-family: 'Dancing Script', cursive;
     background-color: #f2d0ad;
@@ -115,7 +115,10 @@ h1 {
     padding-top: 75px;
     padding-bottom: 100px;
 }
-
+.bienvenida {
+    font-size: 100%;
+    text-align: center;
+}
 /* FIN QUIENES SOMOS */
 
 .seccion-info {
@@ -171,9 +174,7 @@ h1 {
     align-items: center;
 } 
 
-.bienvenida {
-    font-size: 1.5vw;
-}
+
 h2{
     padding: 0px;
     margin: 0px;
@@ -210,14 +211,18 @@ footer {
 }
 @media (max-width: 470px)
 {
+/*     .bienvenida {
+        font-size: 2vw;
+        text-align: center;
+    }
 .quienes-somos{
     background-color: #eedece;
     display: flex;
     height: 10%;
     padding-top: 75px;
     padding-bottom: 100px;
-    font-size: 1em;
-}
+    font-size: 2em;
+} */
 {
     .zapatos img{
         display: flex;
