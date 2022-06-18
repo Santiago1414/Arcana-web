@@ -1,7 +1,6 @@
-
 .img-logo{
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
 }
 
 body {
@@ -86,14 +85,14 @@ a:visited{
 .arcana-h1{
     font-family: 'Dancing Script', cursive;
     background-color: #f2d0ad;
-    font-size: 5vw;
+    font-size: 2.5vw;
     text-align: center;
     color: #242121;
        height: auto;
        border-style: solid;
        border-color: #f2d0ad;
        /* border-width: 2px; */
-       padding-top: 100px;
+       padding-top: 90px;
        width: auto;
        height: auto;
        
@@ -107,19 +106,12 @@ h1 {
 
 /* FIN DE HEADER Y H1 */
 
-.quienes-somos{
-    background-color: #eedece;
-    display: flex;
-    flex-direction: row;
-    height: 10%;
-    justify-content: space-around;
-    padding-top: 75px;
-    padding-bottom: 100px;
-}
-.bienvenida {
-    font-size: 100%;
-    text-align: center;
-}
+
+/* .arcana-bienvenida {
+    font-size: 2vw;
+    font-family: 'Dancing Script', cursive;
+} */
+
 /* FIN QUIENES SOMOS */
 
 .seccion-info {
@@ -127,6 +119,7 @@ h1 {
     padding: 100px 0px;
     display: flex;
     flex-direction: row;
+    gap: 20px;
     justify-content: space-around;
     justify-content: center;
     align-items: center;
@@ -141,33 +134,80 @@ h2{
     text-align: center;
     text-decoration-line: underline;
     font-size: 30px;
+    font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* h2:hover {
+    cursor: pointer;
+    
+} */
 .img-seccion{
-    width: 20%;
-    height: 20%;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 200px;
     border-style: groove;
     border-radius:20px;
     border: 1.5px solid black;
     
-    
-    
 }
-.img-brasil-argentina{
+
+
+.container-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.container-img p{
+    text-align: center;
+}
+
+.indumentaria-h2{
+    padding-top: 50px;
+}
+
+.quienes-somos{
+    background-color: rgb(238, 191, 136);
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: space-around;
+    padding-top: 75px;
+    padding-bottom: 200px;
+}
+
+.h2-quienes-somos{
+    background-color: rgb(238, 191, 136);
+}
+.quienes-somos p {
+   
+    padding-bottom: 50px;
+    font-size: 2VW;
+    text-align: center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+/* .img-brasil-argentina{
     align-items: center;
     padding-top: auto;
     padding-left: 10px;
     padding-right: 10px;
     width: 5vw;
     height: 5vw;
-    border-radius: 60px;
     
+} */
+
+.arcana {
+    font-family: 'Dancing Script', cursive;
 }
-
-
-
-
  /* FOOTER */
 footer {
+    
+    background-color: rgb(238, 191, 136);
     text-align: right;
 }
 .arcana-footer{
@@ -178,6 +218,9 @@ footer {
 }
 
 .p-footer{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
     text-align: right;
     font-size: 80%;
 }
@@ -209,6 +252,7 @@ footer {
     background-color: #eedece;
     padding: 100px 0px;
     display: flex;
+    gap: 20px;
     flex-direction: column;
     justify-content: space-around;
     justify-content: center;
