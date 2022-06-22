@@ -8,7 +8,7 @@ body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     margin: 0;
     padding: 0;
-    background-color: #f2d0ad;
+    background-color: white;
 }
 p{
     /* display: inline; */
@@ -45,26 +45,21 @@ nav {
 a {
     text-decoration: none;
     text-transform: uppercase;  /*mayúsculas */
-     text-shadow: 3px 5px 20px rgb(5, 5, 5); 
+     text-shadow: 3px 5px 30px rgb(5, 5, 5); 
 }
 
-a:link {
-    color: black;
 
-}
 a:visited{
-    color: blue;
+    color: black;
 }
 a:hover{
     color: #ffffff;
 }
-a:visited{
-    color: gray;
-}
+
 .header {
     width: 100%;
     height: 1000px;
-    background-color: #ffffff;
+    background-color: white;
     padding-bottom: 60px;
     padding-top: 20px;
 }
@@ -84,13 +79,13 @@ a:visited{
  /* TITULO */
 .arcana-h1{
     font-family: 'Dancing Script', cursive;
-    background-color: #f2d0ad;
-    font-size: 2.5vw;
+    background-color: white;
+    font-size: 3vw;
     text-align: center;
     color: #242121;
        height: auto;
        border-style: solid;
-       border-color: #f2d0ad;
+       border-color: white;
        /* border-width: 2px; */
        padding-top: 90px;
        width: auto;
@@ -115,7 +110,7 @@ h1 {
 /* FIN QUIENES SOMOS */
 
 .seccion-info {
-    background-color: #eedece;
+    background-color: white;
     padding: 100px 0px;
     display: flex;
     flex-direction: row;
@@ -130,10 +125,10 @@ h1 {
 h2{
     padding: 0px;
     margin: 0px;
-    background-color: #eedece;
+    background-color: white;
     text-align: center;
     text-decoration-line: underline;
-    font-size: 30px;
+    font-size: 24px;
     font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -148,7 +143,12 @@ h2{
     border-style: groove;
     border-radius:20px;
     border: 1.5px solid black;
+    transition: transform 150ms ease-in;
     
+}
+
+.container-img img:hover {
+    transform: scale(1.1);
 }
 
 
@@ -157,7 +157,6 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
 
@@ -170,17 +169,17 @@ h2{
 }
 
 .quienes-somos{
-    background-color: rgb(238, 191, 136);
+    background-color: white;
     display: flex;
     flex-direction: row;
     height: 10%;
     justify-content: space-around;
-    padding-top: 75px;
+    padding-top: 10px;
     padding-bottom: 200px;
 }
 
 .h2-quienes-somos{
-    background-color: rgb(238, 191, 136);
+    background-color: white;
 }
 .quienes-somos p {
    
@@ -190,6 +189,43 @@ h2{
     font-family: 'Arial Narrow', Arial, sans-serif;
    
 }
+
+/* INICIO CONTACTO */
+
+.container-contacto {
+    padding-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 200px;
+
+}
+.container-contacto h2{
+    text-align: center;
+    background-color: white;
+}
+
+.redes-sociales li{
+    display: inline-block;
+    padding-right: 100px;
+
+}
+
+.container-contacto img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.redes-sociales {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+ .container-contacto img {
+    width: 100%;
+    height: 60px;
+    transition: transform 150ms ease-in;
+ }
 
 /* .img-brasil-argentina{
     align-items: center;
@@ -207,7 +243,7 @@ h2{
  /* FOOTER */
 footer {
     
-    background-color: rgb(238, 191, 136);
+    background-color: rgb(197, 180, 180);
     text-align: right;
 }
 .arcana-footer{
@@ -227,7 +263,7 @@ footer {
 
 
 @media (max-width: 770px){
-    .img-brasil-argentina{
+/*     .img-brasil-argentina{
         align-items: center;
         padding-top: 20px;
         padding-left: 10px;
@@ -237,7 +273,7 @@ footer {
         border-radius: 60px;
         
     }
-    
+     */
 }
 
 @media (max-width: 470px)
@@ -249,7 +285,7 @@ footer {
         
     }
 .seccion-info {
-    background-color: #eedece;
+    background-color: white;
     padding: 100px 0px;
     display: flex;
     gap: 20px;
@@ -262,4 +298,51 @@ footer {
     text-align: right;
     font-size: 50%;
 }
+
+}
+
+@media (max-width: 526px)
+{
+    .redes-sociales img{
+        width: 25px;
+        height: 25px;
+        
+     }
+     .redes-sociales li {
+        display: inline-block;
+        padding-right: 50px;
+        
+    }
+}
+
+
+@media (min-width:527 max-width: 1000px)
+{
+    .img-seccion{
+        width: 50%;
+        height: 50%;
+        border-radius:20px;
+        
+    }
+.seccion-info {
+    background-color: white;
+    padding: 100px 0px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.p-footer{
+    text-align: right;
+    font-size: 50%;
+}
+
+.container-contacto img {
+    width: 100%;
+    height: 60px;
+    transition: transform 150ms ease-in;
+ }
+
 }
