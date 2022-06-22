@@ -288,15 +288,7 @@ footer {
         max-height: 250px;
         
     }
-   /*  .img-seccion {
-        object-fit: cover;
-        max-width: 100%;
-        max-height: 200px;
-        border-style: groove;
-        border-radius: 20px;
-        border: 1.5px solid black;
-        transition: transform 400ms ease-in-out;
-    } */
+  
 .seccion-info {
     background-color: white;
     padding: 100px 0px;
@@ -330,7 +322,7 @@ footer {
 
 
 
-@media (min-width:527 max-width: 1000px)
+@media (min-width:527)
 {
     .img-seccion{
         width: 50%;
